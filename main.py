@@ -1,10 +1,13 @@
-class oktagon: 
-    def__init__(self,side,corner,k):
-        self.side = side
-        self.corner = 2.3561944902
-        self.k = 1 + sqrt(2)
-        def RO (self)
-            R = sqrt(self.k/self.k-1) * self.side
-        def rO (self)
-            r = self.side
-        
+from Oktagon import Oktagon #импортируем класс
+
+def main(): #создаем функцию 
+    first = Oktagon(13) #добавляем объект
+    first.plosh() #используем все методы
+    first.per()
+    first.opisan_okr()
+    first.vpisan_okr()
+    first.grafik()
+
+if __name__ == '__main__': #проверяем на прямой запуск
+    main() #запускаем функцию
+    
