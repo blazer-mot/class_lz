@@ -4,8 +4,8 @@ def main(): #создаем функцию
     first = Oktagon(13) #добавляем объект
     first.plosh() #используем все методы
     first.per()
-    first.opisan_okr()
     first.vpisan_okr()
+    first.opisan_okr()
     first.grafik()
 
 if __name__ == '__main__': #проверяем на прямой запуск

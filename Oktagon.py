@@ -30,8 +30,8 @@ class Oktagon:
         print(f'Площадь вписанной окружности {self.vpis_s}')
     def grafik(self): #выводим графики на экран
         self.square = 2 * self.k *self.side ** 2
-        self.mal_r = math.sqrt (self.square / 8 / (math.sqrt(2) - 1))
-        self.bol_r = math.sqrt( self.square / 2 / math.sqrt(2))
+        self.vpis_r = math.sqrt (self.square / 8 / (math.sqrt(2) - 1))
+        self.opis_r = math.sqrt( self.square / 2 / math.sqrt(2))
         p.xlim(-20, 20)
         p.ylim(-20, 20)
         p.grid()
